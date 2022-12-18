@@ -1,0 +1,30 @@
+.layout {
+    display: flex;
+    align-items: stretch;
+}
+
+#imageContainer {
+    max-width: 680px;
+}
+
+.img-fluid {
+    width: 100;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#savedGifs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 0.25rem;
+    overflow-y: auto;
+}
+
+#savedGifs > img {
+    flex: 1;
+    max-width: 100%;
+}
